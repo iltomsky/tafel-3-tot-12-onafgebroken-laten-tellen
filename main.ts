@@ -1,9 +1,10 @@
-let tafel_3 = 0
-basic.forever(function () {
-    let getal = 0
+input.onButtonPressed(Button.A, function () {
     basic.showNumber(getal)
-    tafel_3 += 3
-    if (tafel_3 >= 12) {
-        basic.showNumber(0)
+    if (getal < 13) {
+        getal += 3
+    } else {
+        basic.clearScreen()
     }
 })
+let getal = 0
+getal = 0
