@@ -3,7 +3,7 @@ input.onButtonPressed(Button.A, function () {
     if (getal < 13) {
         getal += 3
     } else {
-        basic.clearScreen()
+        getal = 0
     }
 })
 let getal = 0
