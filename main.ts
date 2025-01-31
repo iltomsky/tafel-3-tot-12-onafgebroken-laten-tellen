@@ -1,10 +1,10 @@
-input.onButtonPressed(Button.A, function () {
+let getal = 0
+basic.forever(function () {
     basic.showNumber(getal)
-    if (getal < 13) {
+    if (getal < 12) {
         getal += 3
+        basic.pause(500)
     } else {
         getal = 0
     }
 })
-let getal = 0
-getal = 0
